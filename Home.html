@@ -1,0 +1,265 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Caveat:wght@500;600;700&family=Jost&family=Lemonada:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+        <!-- Bootstrap -->
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+    <!-- Our Style -->
+  
+    <!-- <link rel="stylesheet" href="src/Login.css"> -->
+    <!-- Google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FontAwesom Icons -->
+    <script src="https://kit.fontawesome.com/be094318c1.js" crossorigin="anonymous"></script>
+    <title>الرئيسية</title>
+</head>
+<body>
+
+
+<!-- Row Hero Section -->
+
+<div class="row m-0 p-0 hero">
+
+    <div class="col-12 col-lg-6 img-col">
+       
+    </div>
+    <div class="col-12 col-lg-6 text-col">
+        <div class="data-text w-75 d-flex flex-column justify-content-center align-items-center">
+            <img src="images/undraw-hero.svg" style="max-width: 300px;" alt="">
+        <h2>مستلزمات وحجوزات الفرح بقت أسهل من الأول ومن مكان واحد ..</h2>
+        <p>
+            دلوقتى علشان تحجز
+            <span>قاعة الفرح</span>
+                و تحدد ميعاد مع 
+                <span>الفوتوجرافر والميكب أرتيست</span>
+            وتحجز 
+                <span>العربية اللى هتزفك</span>
+            كل دا تقدر تعمله من مكان واحد مع موقع
+            <span>فرحى ومجاناً</span>
+            وكمان تستفيد 
+            <span>بكاش باك</span>
+                مع كل خدمة إستفادت بيها
+        </p>
+        
+        <a href="/farahy/Register" class="btn text-center w-50 mx-auto" style="background-color: #d82148; color:white;">سجل دلوقتى</a>
+    </div>
+    </div>
+
+
+</div>
+
+<!-- End Hero Section -->
+
+
+    <div id="services" class="row services flex-row-reverse">
+        <div class="col-12 col-lg-4 one" style="background-color: #e3e3da;">
+            
+             <div class="data-text1 text-center">
+                 <img src="images/undraw-signup.svg" alt="">
+                <h2>هتسجل بياناتك بسهولة وتستلم هدية التسجيل فى محفظتك</h2>
+                <p>يشرفنا زيارتك لينا حاليا في الموقع</p>
+            </div>
+            <div class="data-text2 text-center">
+                 <img src="images/undraw-checkph.svg" alt="">
+                <h2>إتفرج على كل المصورين عندنا و إختار الفوتورجرافر الأقرب لـ قلبك</h2>
+                <p>يشرفنا زيارتك لينا حاليا في الموقع</p>
+            </div>
+        </div>
+    <div class="col-12 col-lg-4 p-0 three" style="background-color: #d82148;">
+            <div class="w-100" style="overflow-x: hidden;">
+            <img src="images/undraw-wedding.svg" style="max-width:700px" alt="">
+            </div>
+    </div>
+    <div class="col-12 col-lg-4 six" style="background-color: #e3e3da;">
+            <div class="data-text1 text-center">
+                 <img src="images/undraw-checkmk.svg" style="max-width: 120px" alt="">
+                <h2>إتفرجى على كل الميكب أرتيسيت عندنا وإختارى اللى تحسى ذوقها مناسب ليكى</h2>
+                <p>يشرفنا زيارتك لينا حاليا في الموقع</p>
+            </div>
+            <div class="data-text2 text-center">
+                 <img src="images/undraw-highfive.svg" alt="">
+                <h2>إتفقوا على قاعة الفرح سوا وإستفيدوا بكاش باك الحجز</h2>
+                <p>يشرفنا زيارتك لينا حاليا في الموقع</p>
+            </div>
+           
+    </div>
+</div>
+
+
+<style>
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        cursor: default;
+        /* white-space: nowrap; */
+    }
+    html{
+        scroll-behavior: smooth;
+        /* overflow-x: hidden; */
+    }
+
+
+    body{
+        font-weight: 600;
+        overflow-x: hidden ;
+        font-family: Lemonada;
+        background-color: #d82148;
+
+    }
+
+    /* Start Hero Section */
+    .row.hero{
+        background-color: #e3e3da ;
+        height: calc(100vh - 71px);
+        position: relative;
+        border-width : 0 0 0px 0;
+        border-style: solid;
+        border-color:#d82148;
+    }
+
+    .img-col{
+      background-image: url("images/default-login.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+      background-color: pink;
+      
+    }
+
+    
+
+    .row.hero::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left : 0;
+        width : 50%;
+        height :100%; 
+        background-color : #d82148;
+        clip-path: polygon(0 0, -20% 0, 38% 100%, 0 100%);
+        z-index: 5;
+    }
+  
+
+    .text-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #e3e3da;
+        padding: 20px;
+    }
+    .text-col img{
+        margin-bottom: 40px;
+    }
+
+    
+    .text-col h2 {
+        font-size: 20px;
+        margin-bottom: 18px;
+        color: #d82148;
+        text-align: start;
+        direction: rtl;
+        line-height: 1.6;
+    }
+    .text-col p {
+        font-size: 17px;
+        font-family: "cairo";
+        text-align: end;
+    }
+
+    .text-col p span{
+        color: #d82148;
+        line-height: 1.6;
+    }
+
+    @media (min-width: 319px) and (max-width: 992px){
+
+        .row.hero{
+            height: fit-content;
+        }
+        .img-col{
+            min-height: 50vh;
+        }
+       .row.hero .text-col{
+            
+        }
+
+        .row.hero::before{
+            width: 50vh;
+            height: 50vh;
+        }
+
+    }
+
+    /* End Hero Section With Media Query */
+
+    /* Start Row Services Section */
+    
+    .row.services{
+        background-color: #d82148;
+        height: 100vh;
+        position: relative;
+        margin: 0 !important;
+    }
+    .row.services .col-12{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .row.services .col-12 h2{
+        color: #d82148;
+        margin-bottom: 10px;
+        line-height: 1.7;
+        font-size : 20px;
+    }
+    
+    .row.services .col-12 p{
+        color: #725c5c;
+        line-height: 1.6;
+        font-size: 17px;
+        font-family: Cairo;
+    }
+    
+    .row.services .col-12.three{
+        position: relative;
+    }
+    .row.services .col-12 img{
+        max-width: 160px;
+        margin-bottom: 10px;
+    }
+    
+    /* End Row Services Section */
+    
+</style>
+
+<script src="src/jquery-3.6.0.min.js"></script>
+<script src="src/popper.js"></script>
+<script src="src/bootstrap.min.js"></script>
+<script src="src/bootstrap.bundle.js"></script>
+</html>
